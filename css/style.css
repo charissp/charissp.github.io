@@ -1,5 +1,19 @@
+.logo {
+font-size: 30px;
+font-weight: 60px;
+color: #000000;
+margin-left: 30px;
+}
+
+
 h1{
-font-size: 60px;
+font-size: 150px;
+font-weight: 60px;
+color: #ffffff;
+}
+
+h2{
+font-size: 20px;
 }
 
 .header .row {
@@ -7,7 +21,23 @@ height: 100vh;
 
 }
 
-.header {
-background-color: #BDBDBD;
-background-image: url("images/header.jpg");
+
+.header{
+   
+    background: url(https://raw.githubusercontent.com/charissp/charissp.github.io/master/images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    
 }
+.description {
+    margin-top: 75px;
+    margin-bottom: 75px;
+ }
+
+ .footer {
+    margin-top: 75px;
+    margin-bottom: 75px;
+
+ }
