@@ -12,11 +12,9 @@ font-weight: 60px;
 color: #ffffff;
 }
 
-@media (min-width: 768)
-{
-       h1
-       {
-           font-size: 17px; 
+@media (max-width: 780px){
+       .header h1 {
+           font-size: 100px; 
        }
       
 }
@@ -37,7 +35,9 @@ height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    background-size: 100%;
     background-repeat: repeat-x;
+    background-color: #FFB5C3;
     
 }
 .description {
