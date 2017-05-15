@@ -44,11 +44,11 @@ height: 100vh;
 .header{
    
     background-image: url(https://raw.githubusercontent.com/charissp/charissp.github.io/master/images/header.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: repeat-x;
+    /*background-repeat: no-repeat;*/
+    background-position: center center;
+    /*background-attachment: fixed;*/
+    /*background-size: 100%;*/
+    /*background-repeat: repeat-x;*/
     background-color: #FFB5C3;
     
 }
