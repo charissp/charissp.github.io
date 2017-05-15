@@ -46,11 +46,17 @@ height: 100vh;
     background-image: url(https://raw.githubusercontent.com/charissp/charissp.github.io/master/images/header.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
     background-size: 100%;
     background-color: #FFB5C3;
     
 }
+
+@media (min-width: 600px){
+        .header {
+          background-attachment: fixed;  
+        }
+
+    }
 .description {
     margin-top: 75px;
     margin-bottom: 75px;
