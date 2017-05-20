@@ -3,26 +3,32 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation-flex.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 
+	
 </head>
 <body>
 
-<section class="header">
+<section class="header wow fadeInUp" data-wow-delay="1s">
 
-<a class="logo" href="#">WHITE</a>
+<a class="logo wow slideInLeft" href="#" data-wow-delay="2s">WHITE</a>
 
 <div class="row align-center align-middle">
 	
-	<div class="column shrink"> <h1>White</h1></div>
+	<div class="column shrink"> <h1 class="animated slideInUp" data-wow-delay="3s"> White</h1></div>
 	
 	</div>
 
 </section>
 
 <section class="description">
+
+	<button class="button wow bounceIn" data-wow-delay="4s">call me</button>
 	
 	<div class="row">
 	 <div class="small-12 medium-6 column"><h2><b>Writings</b></h2></div>
+
+	 
 	
 	 <div class="small-12 medium-6 large-4 column"><p>We hand craft beautiful, intelligent and immersive digital experiences. We're experts in brand, web and visual content and truly collaborative in our approach.</p></div>
 	 </div>
@@ -47,7 +53,7 @@
 <div class="row">
 
 <div class="small-12 medium-4 column">
-<a class="logo" href="#"><b>Chaptr.</b></a>
+<a class="logo wow slideInUp" href="#"><b>Chaptr.</b></a> 
 </div>
 
 <div class="small-12 medium-4 column">
@@ -67,6 +73,25 @@
 </div>
 
 </section>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+
+	<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
+	<script type="text/javascript">
+		// alert("Hello!");
+		$( "button" ).click(function() {
+  	$( "h1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+  	$( ".logo" ).slideUp( 300 ).fadeIn( 400 );
+});
+
+	</script>
+
+
+
 
 </body>
 </html>
