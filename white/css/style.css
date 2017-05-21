@@ -1,5 +1,6 @@
 html {
     min-width: 380px;
+
 }
 
 .logo {
@@ -38,6 +39,11 @@ h2{
 font-size: 30px;
 color: #000000;
 font-family: 'Crimson Text', serif;
+}
+
+.row{
+font-family: 'Crimson Text', serif;
+font-size: 18px;
 }
 
 .header .row {
