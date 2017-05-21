@@ -90,9 +90,14 @@ color:#404040;
 border-bottom: 1px solid #d9d9d9;
 padding-bottom: 3px;
 
-
-
  }
+
+.slider {
+border-image-width: 20px;
+background-repeat: no-repeat;
+background-position: center center;
+
+}
 
 
 .fade
