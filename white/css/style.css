@@ -93,12 +93,41 @@ padding-bottom: 3px;
  }
 
 .slider {
-border-image-width: 20px;
-background-repeat: no-repeat;
-background-position: center center;
+background-color: #BDBEBF;
+display: block;
+height: 550px
 
 }
 
+.sliderheadline {
+font-family: 'Crimson Text', serif;
+font-size: 36px;
+letter-spacing: 4px;
+color:#ffffff;
+text-align: center;
+margin-left: 700px;
+margin-top: 100px;
+}
+
+.slidersubheadline {
+font-family: 'Crimson Text', serif;
+font-size: 14px;
+color:#ffffff;
+text-align: center;
+
+}
+
+
+.button {
+font-family: 'Crimson Text', serif;
+font-size: 14px;
+font-color: #ffffff;
+text-align: center;
+background-color: #BDBEBF;
+border: 2px solid #FFFFFF;
+
+
+}
 
 .fade
 {
