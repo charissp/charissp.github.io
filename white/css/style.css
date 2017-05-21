@@ -67,7 +67,7 @@ height: 50vh;
 
 @media (min-width: 600px){
         .header {
-          background-attachment: fixed;  
+          /*background-attachment: fixed; */  
         }
         .header .row {
             height:100vh;
