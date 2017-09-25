@@ -4,6 +4,7 @@ html {
 }
 
 
+
 h1{
 font-family: 'Gloria Hallelujah', cursive;
 font-size: 50px;
@@ -61,17 +62,24 @@ height: 10vh;
           background-attachment: fixed;  
         }
         .header .row {
-            height:40vh;
+            height:20vh;
         }
 
 
     }
-.description {
+.descriptionCelup {
     margin-top: 1px;
-    margin-bottom: 25px;
     border-top: 2px solid #ffffff;
     padding-bottom: 3px;
     background-color: #F0EDEC;
+
+ }
+
+ .descriptionCincau {
+    margin-bottom: 25px;
+    border-top: 2px solid #F1D7C2;
+    padding-bottom: 3px;
+    background-color: #F1D7C2;
 
  }
 
