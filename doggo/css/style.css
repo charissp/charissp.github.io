@@ -36,15 +36,15 @@ color: #000000;
    }
 
 h2{
-font-size: 20px;
+font-size: 50px;
 color: #000000;
-font-family: 'Crimson Text', serif;
+font-family: 'Gloria Hallelujah', cursive;
 text-align: center;
 }
 
 .row{
-font-family: 'Crimson Text', serif;
-font-size: 16px;
+font-family: 'Caveat', cursive;
+font-size: 30px;
 text-align: center;
 
 }
@@ -75,21 +75,14 @@ height: 10vh;
 
     }
 .description {
-    margin-top: 75px;
-    margin-bottom: 75px;
- }
-
- .SectionHeader {
-font-family: 'Crimson Text', serif;
-font-size: 16px;
-text-align: center;
-margin-top: 20px;
-margin-bottom: 20px;
-color:#404040;
-border-bottom: 1px solid #d9d9d9;
-padding-bottom: 3px;
+    margin-top: 1px;
+    margin-bottom: 25px;
+    border-top: 10px solid #ffffff;
+    padding-bottom: 3px;
+    background-color: #F0EDEC;
 
  }
+
 
 .carousel {
 background-color: #BDBEBF;
